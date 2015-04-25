@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test collection</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script src="../../src/collection.js"></script>
+    <script src="../public/js/textCollection.js"></script>
+    <script src="../public/js/textListCollection.js"></script>
+    <style>
+     .container {
+       width: 1150px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h4>Please create your nested list</h4>
+        </div>
+        <div class="textlist_collection_container panel-body">
+          <form>
+            <div class="bs-example bs-example-tabs" role="tabpanel" data-example-id="togglable-tabs">
+              <ul class="nav nav-tabs" role="tablist">
+              </ul>
+              <div class="tab-content textlist_collection_holder" data-textlist-prototype="&lt;li role=&quot;presentation&quot;&gt;&lt;a href=&quot;#content-__parent_name__&quot; id=&quot;tab-__parent_name__&quot; role=&quot;tab&quot; data-toggle=&quot;tab&quot;&gt;Collection __parent_name__ &lt;span class=&quot;glyphicon glyphicon-remove delete_textlist_item btn btn-danger&quot;&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;div role=&quot;tabpanel&quot; class=&quot;tab-pane fade&quot; id=&quot;content-__parent_name__&quot; data-item-closest-selector=&quot;tr&quot;&gt;&lt;table class=&quot;table&quot;&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;Text&lt;/th&gt;&lt;th&gt;Add&lt;/th&gt;&lt;th&gt;Action&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody class=&quot;text_collection_holder&quot; data-text-prototype=&quot;&amp;lt;tr&amp;gt;&amp;lt;td&amp;gt;&amp;lt;input class=&amp;quot;form-control input-sm&amp;quot; type=&amp;quot;text&amp;quot; name=&amp;quot;plop___parent_name_____name__&amp;quot;&amp;gt;&amp;lt;/input&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;add_text_item btn btn-success btn-sm&amp;quot;&amp;gt;Add&amp;lt;/button&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;td&amp;gt;&amp;lt;button type=&amp;quot;button&amp;quot; class=&amp;quot;delete_text_item btn btn-danger btn-sm&amp;quot;&amp;gt;Delete&amp;lt;/button&amp;gt;&amp;lt;/td&amp;gt;&amp;lt;/tr&amp;gt;&quot;&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;">
+              </div>
+            </div>
+          </form>
+          <button class="add_textlist_item btn btn-success">Add list</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

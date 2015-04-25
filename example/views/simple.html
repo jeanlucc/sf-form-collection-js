@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test simple collection</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="../../src/collection.js"></script>
+  </head>
+  <body>
+    <div class="row">
+      <div class="col-sm-5">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h4>Please create your simple list</h4>
+          </div>
+          <div class="collection_container panel-body">
+            <form>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th>Text</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody class="collection_holder" data-prototype="&lt;tr class=&quot;item&quot;&gt;&lt;td&gt;&lt;input class=&quot;form-control input-sm&quot; type=&quot;text&quot; name=&quot;collection_item___name__&quot;&gt;&lt;/input&gt;&lt;/td&gt;&lt;td&gt;&lt;button type=&quot;button&quot; class=&quot;delete_item btn btn-danger btn-sm&quot;&gt;Delete&lt;/button&gt;&lt;/td&gt;&lt;/tr&gt;">
+                </tbody>
+              </table>
+              <button class="add_item btn btn-success">Add</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
